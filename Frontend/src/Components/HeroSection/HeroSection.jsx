@@ -126,11 +126,11 @@ function HeroSection() {
                     <motion.a whileHover={{
                         scale: 1.2,
                         transition: { duration: 0.2 },
-                    }} style={{ marginBlock: '20px' }} href="mailto:anasq4628@gmail.com" target='blank' ><CgMail /></motion.a>
+                    }} style={{ marginBlock: '20px' }} href="mailto:anas.reactdev@gmail.com" target='blank' ><CgMail /></motion.a>
                     <motion.a whileHover={{
                         scale: 1.2,
                         transition: { duration: 0.2 },
-                    }} href='https://github.com/Anasssss1234'><FaGithub /></motion.a>
+                    }} href='https://github.com/reactdev-anas'><FaGithub /></motion.a>
                 </MotionBox>
                 <Box className={'arrow-text'} position='absolute' bottom='5%' >
                     <Typography fontFamily='roboto' fontWeight='400' fontSize='18px' bottom='5%' variant='caption'>Works  </Typography>
