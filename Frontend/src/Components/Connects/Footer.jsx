@@ -55,10 +55,10 @@ function Footer() {
           transition={{ duration: 0.5, delay: 0.8 }}
           fontSize={24} marginBlock='18px'
         >
-          <a href="mailto:anasq4628@gmail.com" target='blank'  style={{ marginRight: '22px', }}><SiGmail fill='#047387' /></a>
+          <a href="mailto:anas.reactdev@gmail.com" target='blank'  style={{ marginRight: '22px', }}><SiGmail fill='#047387' /></a>
           <a href='#' ><FaLinkedinIn fill='#047387' /></a>
           <a href='https://www.instagram.com/' style={{ marginInline: '22px', }}><FaInstagram fill='#047387' /></a>
-          <a href='https://github.com/Anasssss1234'><FaGithub fill='#047387' /></a>
+          <a href='https://github.com/reactdev-anas'><FaGithub fill='#047387' /></a>
         </MotionBox>
       </Box>
     </>
