@@ -178,7 +178,7 @@ import { Box, Typography, TextField, Button } from '@mui/material';
 import { motion } from 'framer-motion';
 import { FiSend } from 'react-icons/fi';
 import devimg from '../logos/freePick.png';
-import Footer from './footer';
+import Footer from './Footer';
 
 function Connect() {
   const [name, setName] = useState('');
