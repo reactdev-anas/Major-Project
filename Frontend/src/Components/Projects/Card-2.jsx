@@ -38,7 +38,7 @@ function Card2() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.7 }}
           data-tooltip-id='my-tooltip-inline-2'
-          data-tooltip-content=' Highly Impressive Todo App '
+          data-tooltip-content=' TodoAdmin '
           className='project-2' >
           <div className="project-text-2">
             <TypographyMotion initial={{ opacity: 0, x: 100 }}
