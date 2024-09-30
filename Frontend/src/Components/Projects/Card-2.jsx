@@ -43,13 +43,13 @@ function Card2() {
           <div className="project-text-2">
             <TypographyMotion initial={{ opacity: 0, x: 100 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.6 }} fontFamily='roboto' fontWeight='500'variant='h5'> TodoAdmin </TypographyMotion>
+              transition={{ duration: 0.5, delay: 0.6 }} fontFamily='roboto' fontWeight='500'variant='h5' sx={{osition: 'relative', zIndex: 1,}}> TodoAdmin </TypographyMotion>
             <TypographyMotion initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.8 }} fontFamily='roboto' marginTop={1} sx={{fontSize:{lg:'0.875rem', xs:'0.8rem'}}}> A feature-rich application built with React.js and Local Storage offering a seamless user experience with secure login and sign up for up to five users. Users can manage their to-do-list with full CRUD functionality, while admin can oversee and manage all user's tasks. includes advanced analytics with graphs tracking completed and deleted tasks.</TypographyMotion>
+              transition={{ duration: 0.5, delay: 0.8 }} fontFamily='roboto' marginTop={1} sx={{fontSize:{lg:'0.875rem', xs:'0.8rem'},position: 'relative', zIndex: 1,}}> A feature-rich application built with React.js and Local Storage offering a seamless user experience with secure login and sign up for up to five users. Users can manage their to-do-list with full CRUD functionality, while admin can oversee and manage all user's tasks. includes advanced analytics with graphs tracking completed and deleted tasks.</TypographyMotion>
             <ButtonMotion initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.7 }} sx={{ marginTop: '10px', backgroundColor: '#ff5722', '&:hover': { backgroundColor: '#e64a19' } }} variant='contained' endIcon={<LaunchIcon sx={{ marginBottom: '4px' }} />}>visit site</ButtonMotion>
+              transition={{ duration: 0.5, delay: 0.7 }} sx={{ marginTop: '10px',position: 'relative', zIndex: 1, backgroundColor: '#ff5722', '&:hover': { backgroundColor: '#e64a19' } }} variant='contained' endIcon={<LaunchIcon sx={{ marginBottom: '4px' }} />}  onClick={() => window.open('https://todo-admin-nine.vercel.app/login', '_blank')} >visit site</ButtonMotion>
           </div>
         </motion.div>
         <Tooltip id='my-tooltip-inline-2' className='tooltip' style={{ background: '#ff5722', color: '#ffff', fontFamily: 'roboto', fontWeight: '500' }} />
