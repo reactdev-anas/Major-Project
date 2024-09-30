@@ -46,7 +46,7 @@ function Card3() {
               transition={{ duration: 0.5, delay: 0.7 }} fontFamily='roboto' marginTop={1} width='80%'   sx={{fontSize:{lg:'0.875rem', xs:'0.8rem'},position: 'relative', zIndex: 1,}}>A React-based project eith a clean and responsive design, enabling users to easily add, remove, and manage items. feature real-time updates and a seamless shopping experience</TypographyMotion>
             <ButtonMotion initial={{ opacity: 0, x: -40 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.7 }} sx={{ marginTop: '10px',position: 'relative', zIndex: 1, }} variant='contained' color='success' endIcon={<LaunchIcon sx={{ marginBottom: '4px' }} />}  onClick={() => window.open('https://todo-admin-nine.vercel.app/login', '_blank')} >visit site</ButtonMotion>
+              transition={{ duration: 0.5, delay: 0.7 }} sx={{ marginTop: '10px',position: 'relative', zIndex: 1, }} variant='contained' color='success' endIcon={<LaunchIcon sx={{ marginBottom: '4px' }} />}  onClick={() => window.open('https://cartify-one-hazel.vercel.app/', '_blank')} >visit site</ButtonMotion>
           </div>
         </motion.div>
         <Tooltip id='my-tooltip-inline' className='tooltip' style={{ background: '#4caf50', color: '#ffff', fontFamily: 'roboto', fontWeight: '500' }} />
