@@ -42,14 +42,14 @@ function Card4() {
           <div className="project-text-4">
             <TypographyMotion initial={{ opacity: 0, x: 100 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.6 }} fontFamily='roboto' fontWeight='500'variant='h5'> Expense Tracker App </TypographyMotion>
+              transition={{ duration: 0.5, delay: 0.6 }} fontFamily='roboto' fontWeight='500'variant='h5' sx={{position: 'relative', zIndex: 1,}}> Expense Tracker App </TypographyMotion>
             <TypographyMotion initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.8 }} fontFamily='roboto' marginTop={1} sx={{fontSize:{lg:'0.875rem', xs:'0.8rem'}}}>Take control of your finances with our React-based Expense Tracker. Effortlessly record, categorize, and analyze your spending habits with a sleek and user-freindly interface, designed to help you manage your budget and acheive your financial goals.
+              transition={{ duration: 0.5, delay: 0.8 }} fontFamily='roboto' marginTop={1} sx={{fontSize:{lg:'0.875rem', xs:'0.8rem'},position: 'relative', zIndex: 1,}}>Take control of your finances with our React-based Expense Tracker. Effortlessly record, categorize, and analyze your spending habits with a sleek and user-freindly interface, designed to help you manage your budget and acheive your financial goals.
               </TypographyMotion>
             <ButtonMotion initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.7 }} sx={{ marginTop: '10px', backgroundColor: '#cddc39', '&:hover': { backgroundColor: ' #a4b42d' } }} variant='contained' endIcon={<LaunchIcon sx={{ marginBottom: '4px' }} />}>visit site</ButtonMotion>
+              transition={{ duration: 0.5, delay: 0.7 }} sx={{ marginTop: '10px',position: 'relative', zIndex: 1, backgroundColor: '#cddc39', '&:hover': { backgroundColor: ' #a4b42d' } }} variant='contained' endIcon={<LaunchIcon sx={{ marginBottom: '4px' }} />}  onClick={() => window.open('https://todo-admin-nine.vercel.app/login', '_blank')} >visit site</ButtonMotion>
           </div>
         </motion.div>
         <Tooltip id='my-tooltip-inline-4' className='tooltip' style={{ background: '#cddc39', color: '#ffff', fontFamily: 'roboto', fontWeight: '500' }} />
