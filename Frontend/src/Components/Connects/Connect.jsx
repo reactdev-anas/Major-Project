@@ -187,7 +187,7 @@ function Connect() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('http://localhost:3001/send', {
+    const response = await fetch('https://server-azure-nu-68.vercel.app/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
