@@ -5,6 +5,7 @@ import AboutMe from './AboutMe';
 import { FaInstagram } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { FaArrowDownLong } from "react-icons/fa6";
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
