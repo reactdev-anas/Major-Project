@@ -56,7 +56,7 @@ function Footer() {
           fontSize={24} marginBlock='18px'
         >
           <a href="mailto:anas.reactdev@gmail.com" target='blank'  style={{ marginRight: '22px', }}><SiGmail fill='#047387' /></a>
-          <a href='#' ><FaLinkedinIn fill='#047387' /></a>
+          <a href='www.linkedin.com/in/anas-qureshi-537617330' ><FaLinkedinIn fill='#047387' /></a>
           <a href='https://www.instagram.com/' style={{ marginInline: '22px', }}><FaInstagram fill='#047387' /></a>
           <a href='https://github.com/reactdev-anas'><FaGithub fill='#047387' /></a>
         </MotionBox>
