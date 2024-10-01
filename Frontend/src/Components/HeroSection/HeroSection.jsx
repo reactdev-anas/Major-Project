@@ -119,6 +119,10 @@ function HeroSection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.7 }}
                     position='absolute' right='2%' display='flex' className='social-icons' flexDirection='column' fontSize={30} >
+                      <motion.a whileHover={{
+                        scale: 1.2,
+                        transition: { duration: 0.2 },
+                    }} style={{marginBottom:'20px'}} href='https://www.linkedin.com/in/anas-qureshi-537617330/'><FaLinkedinIn /></motion.a>
                     <motion.a whileHover={{
                         scale: 1.2,
                         transition: { duration: 0.2 },
