@@ -23,7 +23,7 @@ const container = (delay) => ({
 
 function HeroSection() {
     const scrollDown = () => {
-        window.scrollTo({ top: '650', behavior: 'smooth' })
+        window.scrollTo({ top: '655', behavior: 'smooth' })
     }
    
 
