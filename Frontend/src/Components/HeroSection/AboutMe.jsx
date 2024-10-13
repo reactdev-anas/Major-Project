@@ -74,7 +74,7 @@ const style = {
 
 export default function AboutMe() {
 
-  const skills = ['#javascript', '#react.js', '#redux', '#node.js', '#express.js', '#mongoDB', '#mongoose', '#html', '#css', '#sass', '#bootstrap', '#git', "#github", '#materialUi', '#framerMotion']
+  const skills = ['#javascript', '#react.js', '#redux', '#node.js', '#express.js', '#mongoDB', '#mongoose', '#html', '#css', '#sass', '#bootstrap', '#git', "#github", '#materialUi', '#TailwindCSS']
   const [open, setOpen] = React.useState(null);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
