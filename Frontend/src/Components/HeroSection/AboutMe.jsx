@@ -128,7 +128,7 @@ export default function AboutMe() {
                 ABOUT ME
               </Typography>
               <Typography fontFamily='roboto' fontWeight='400' lineHeight='1.5' textAlign='start' color='#ffff' variant='caption' id="spring-modal-description" fontSize={14} letterSpacing={1}>
-                Hi! I’m Anas Qureshi, a MERN stack developer with 1.5 years of experience in building web applications. I am specialized in MongoDB, Express.js, React.js, and Node.js, and I’m passionate about creating user-friendly and efficient solutions.
+                Hi! I’m Anas Qureshi, a MERN stack developer with hands on experience in building web applications. I am specialized in MongoDB, Express.js, React.js, and Node.js, and I’m passionate about creating user-friendly and efficient solutions.
                 Feel free to check out my portfolio and reach out if you’d like to connect!
               </Typography>
               <Box className='skills-width' sx={{ margin: '15px 0px 30px 0px', width: '400px', display: 'flex', flexWrap: 'wrap' }}>
