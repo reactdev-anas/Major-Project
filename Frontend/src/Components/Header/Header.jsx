@@ -34,8 +34,8 @@ function Logo() {
         transition={{ duration: 0.5, delay: 0.7 }}
         sx={{
           marginRight: {
-            xs: '15px',
-            lg: '22px'
+            xs: '0px',
+            lg: '16px'
           }
         }} >
         <a href='https://web.telegram.org/a/'><TelegramIcon sx={{ color: "#ffff" }} /></a>
