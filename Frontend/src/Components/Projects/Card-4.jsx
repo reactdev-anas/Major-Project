@@ -49,7 +49,7 @@ function Card4() {
               </TypographyMotion>
             <ButtonMotion initial={{ opacity: 0, x: 40 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.7 }} sx={{ marginTop: '10px',position: 'relative', zIndex: 1, backgroundColor: '#cddc39', '&:hover': { backgroundColor: ' #a4b42d' } }} variant='contained' endIcon={<LaunchIcon sx={{ marginBottom: '4px' }} />}  onClick={() => window.open('https://todo-admin-nine.vercel.app/login', '_blank')} >visit site</ButtonMotion>
+              transition={{ duration: 0.5, delay: 0.7 }} sx={{ marginTop: '10px',position: 'relative', zIndex: 1, backgroundColor: '#cddc39', '&:hover': { backgroundColor: ' #a4b42d' } }} variant='contained' endIcon={<LaunchIcon sx={{ marginBottom: '4px' }} />}  onClick={() => window.open('https://expense-tracker-drab-xi.vercel.app/', '_blank')} >visit site</ButtonMotion>
           </div>
         </motion.div>
         <Tooltip id='my-tooltip-inline-4' className='tooltip' style={{ background: '#cddc39', color: '#ffff', fontFamily: 'roboto', fontWeight: '500' }} />
