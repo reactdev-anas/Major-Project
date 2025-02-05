@@ -24,7 +24,8 @@ app.post('/send', (req, res) => {
        from: `${name} <${email}>`,
         to: process.env.EMAIL,
         subject: `Message from ${name}`,
-        text: message
+        text: message,
+        replyTo: email,
     };
 
     transporter.sendMail(mailOptions, (error, info) => {
