@@ -48,7 +48,7 @@ function Card1() {
               transition={{ duration: 0.5, delay: 0.5 }} fontFamily='roboto' marginTop={1}  sx={{fontSize:{lg:'0.875rem', xs:'0.8rem'}, width:{lg:'90%', xs:'95%'},position: 'relative', zIndex: 1,}}> A fully responsive web application built using the MERN stack (mongoDB, Express, React, Node.Js) to showcase my projects, skills and experience. it includes dynamic project updates, intuitive navigation, and real time data management. The frontend is designed for a smooth experience, while the backend handles the secure data storage and retrieval.</TypographyMotion>
             <ButtonMotion initial={{ opacity: 0, x: -40 }}
               whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5, delay: 0.6 }} sx={{ marginTop: '10px',position: 'relative', zIndex: 1, backgroundColor: ' #00BFFF ', '&:hover': { backgroundColor: ' #87CEEB ' } }} variant='contained' endIcon={<LaunchIcon sx={{ marginBottom: '4px' }} />} onClick={() => window.open('https://anas-eta.vercel.app', '_blank')} >visit site</ButtonMotion>
+              transition={{ duration: 0.5, delay: 0.6 }} sx={{ marginTop: '10px',position: 'relative', zIndex: 1, backgroundColor: ' #00BFFF ', '&:hover': { backgroundColor: ' #87CEEB ' } }} variant='contained' endIcon={<LaunchIcon sx={{ marginBottom: '4px' }} />} onClick={() => window.open('https://anasdev-six.vercel.app', '_blank')} >visit site</ButtonMotion>
           </div>
         </motion.div>
         <Tooltip id='my-tooltip-inline-1' className='tooltip' style={{ background: '#00BFFF', color: '#ffff', fontFamily: 'roboto', fontWeight: '500' }} />
